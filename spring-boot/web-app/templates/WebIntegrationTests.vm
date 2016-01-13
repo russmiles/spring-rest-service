@@ -24,7 +24,7 @@ import java.util.List;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = ${applicationClassName}.class)
 @WebIntegrationTest("server.port:8080")
-public class ${applicationClassName}WebIntegrationTests {
+public class ${applicationName}WebIntegrationTests {
 
   private static final int PORT = 8080;
 
