@@ -22,16 +22,16 @@ import java.util.List;
  * 
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = GitHubServiceApplication.class)
+@SpringApplicationConfiguration(classes = ${applicationClassName}.class)
 @WebIntegrationTest("server.port:8080")
 public class ${applicationClassName}WebIntegrationTests {
 
   private static final int PORT = 8080;
 
-// Parameterize tests like this
+    // Parameterize tests like this
     private static final String AN_APP_PATH = "http://localhost:" + PORT + "/path";
  
-// Use this to run tests
+    // Use this to run tests
     private RestTemplate restTemplate = new RestTemplate();
     
 
