@@ -24,7 +24,7 @@ import java.util.List;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = GitHubServiceApplication.class)
 @WebIntegrationTest("server.port:8080")
-public class ${applicationClassName}WebIntegrtionTests {
+public class ${applicationClassName}WebIntegrationTests {
 
   private static final int PORT = 8080;
 
