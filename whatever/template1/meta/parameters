@@ -1,1 +1,1 @@
-param1:String
+param1:String:true
