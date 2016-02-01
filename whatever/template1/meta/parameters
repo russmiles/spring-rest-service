@@ -5,4 +5,4 @@ requiredString:true:.*:description:Should be valid
 
 requiredNum:true:\d+:description:should be an int
 
-optionalString:false:.*:description:any string
+optionalString:false:custom:description:any string
