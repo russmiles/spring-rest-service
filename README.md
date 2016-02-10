@@ -1,5 +1,5 @@
 # project-templates
-Project templates used in generation
+Project templates used in code generation
 
 Uses directory conventions for templates. The first layer of directories (such as "spring-boot") is the template type.
 
@@ -15,4 +15,4 @@ The final layer consists of three possible directories:
 | description.txt  | Description of the template  | Required |
 | parameters  | List of parameter names, one per line  | Optional |
 
-See com.sforzando.generate.TemplateBasedProjectTemplate in contract-lib project.
+See com.atomist.generate.TemplateBasedProjectTemplate in generator-lib project.
