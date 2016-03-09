@@ -6,9 +6,18 @@ description:
 
 parameters:
 
-  - name: $name
-    required: $required
-    description: $description
-    default-value: $default
-    pattern: $pattern
-    valid-input-description: $validInputDescription
+  - name: required_string
+    required: true
+    description: A required string
+    valid-input-description: Should be valid
+    
+  - name: required_num
+    required: true
+    description: A required number
+    pattern: \d+
+    valid-input-description: A number
+    
+  - name: optional_string
+    required: false
+    description: An optional string
+    valid-input-description: Any string
