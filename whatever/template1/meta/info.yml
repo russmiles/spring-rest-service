@@ -1,0 +1,14 @@
+name:
+    test1
+
+description:
+   descr1
+
+parameters:
+
+  - name: $name
+    required: $required
+    description: $description
+    default-value: $default
+    pattern: $pattern
+    valid-input-description: $validInputDescription
