@@ -19,5 +19,6 @@ parameters:
     
   - name: optional_string
     required: false
+    pattern: custom
     description: An optional string
     valid-input-description: Any string
