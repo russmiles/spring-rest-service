@@ -1,1 +1,0 @@
-Angular Seed project, parameterized by Atomist
