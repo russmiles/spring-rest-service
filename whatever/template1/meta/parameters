@@ -1,8 +1,0 @@
-
--- TODO could think of YAML
-
-required_string:true:.*:description:Should be valid
-
-required_num:true:\d+:description:should be an int
-
-optional_string:false:custom:description:any string
