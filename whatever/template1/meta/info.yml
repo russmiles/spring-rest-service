@@ -1,6 +1,8 @@
-name: test1
+name: 
+  test1
 
-description: This is a lengthy description of an undeniably exciting template
+description: 
+  This is a lengthy description of an undeniably exciting template
 
 parameters:
 
