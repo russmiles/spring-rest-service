@@ -17,5 +17,4 @@ public class ${application_class_name}Tests {
 	@Test
 	public void contextLoads() {
 	}
-
 }
