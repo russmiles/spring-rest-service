@@ -35,5 +35,4 @@ public class ${application_name}WebIntegrationTests {
     @Test public void sampleTest() {
         // Use RestTemplate to hit chosen URLs
     }
-    
  }
