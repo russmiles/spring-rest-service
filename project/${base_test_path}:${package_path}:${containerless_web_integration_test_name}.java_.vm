@@ -27,7 +27,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringApplicationConfiguration(classes = ${application_class_name}.class)
 @WebAppConfiguration
 @IntegrationTest({"server.port=0", "spring.cloud.bus.enabled=false", "spring.cloud.discovery.enabled=false", "spring.cloud.consul.enabled=false"})
-public class ${application_name}OutOfContainerIntegrationTests {
+public class $containerless_web_integration_test_name {
 
     private MockMvc mockMvc;
 
