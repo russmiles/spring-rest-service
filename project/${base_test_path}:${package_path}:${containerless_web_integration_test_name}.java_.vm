@@ -36,17 +36,15 @@ public class $containerless_web_integration_test_name {
 
     @Before
     public void setup() {
-        mockMvc = MockMvcBuilders.webAppContextSetup(applicationContext)
-                .build();
+        mockMvc = MockMvcBuilders.webAppContextSetup(applicationContext).build();
     }
 
     @Test
     public void canPerformSimpleGetRequestOnMicroservice() throws Exception {
-        MvcResult result = mockMvc.perform(get("/"))
+        mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
                 .andExpect(content().contentType("text/plain;charset=UTF-8"))
+                .andExpect(content().string("Hello Microservice World"))
                 .andReturn();
-
-        result.getResponse().getContentAsString().contains("Hello Microservice World");
     }
  }

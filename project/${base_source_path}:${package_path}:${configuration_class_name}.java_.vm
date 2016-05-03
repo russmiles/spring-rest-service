@@ -6,7 +6,6 @@ package $package_name;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-
 /**
 * Spring Java configuration file for $application_name.
 * Don't even think of using XML.
@@ -16,5 +15,4 @@ public class ${application_name}Configuration {
 
     // Your beans go here ... 
 	// Atomist Bot suggests "maybe use an Atomist project editor to add a sample one?"
-
 }

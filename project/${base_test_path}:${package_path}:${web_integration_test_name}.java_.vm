@@ -29,9 +29,9 @@ public class ${application_name}WebIntegrationTests {
  
     // Use this to run tests
     private RestTemplate restTemplate = new RestTemplate();
-    
 
-    @Test public void sampleTest() {
+    @Test
+    public void sampleTest() {
         // Use RestTemplate to hit chosen URLs
     }
  }
