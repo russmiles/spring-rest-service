@@ -14,8 +14,7 @@ then
 		exit -1
 	fi
 else
-	echo "Template failed validation with the following errors:";
-	echo $validation_response
-	exit -1
+	echo "Template passed validation with the following:";
+	echo $validation_response;
 fi
 
