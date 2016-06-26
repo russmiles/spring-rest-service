@@ -1,3 +1,5 @@
+Created from template ${template_name}, version ${template_version}
+
 ${name} microservice
 ===========================
 
