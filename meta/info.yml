@@ -10,4 +10,4 @@ parameters:
   - name: description
     required: false
     description: The microservice short description
-    valid_input_description: A short description of the service.
+    valid-input-description: A short description of the service.
