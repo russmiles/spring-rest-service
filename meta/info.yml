@@ -7,8 +7,7 @@ description:
   Spring Boot REST microservice
   
 parameters:
-  
   - name: description
     required: false
     description: The microservice short description
-    valid-input-description: A short description of the service.
+    valid_input_description: A short description of the service.
